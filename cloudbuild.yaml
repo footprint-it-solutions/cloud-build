@@ -1,0 +1,5 @@
+steps:
+- name: google/cloud-sdk:alpine
+  id: Clone repo
+  entrypoint: git
+  args: ['clone', 'git@github.com:footprintmediaits/cloud-build.git']
